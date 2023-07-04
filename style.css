@@ -1,0 +1,12 @@
+body{
+    
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: underline;
+        text-decoration-color: antiquewhite;
+        background-color: rgb(25, 26, 26);
+        color: rgb(255, 255, 255);
+        margin: auto;
+        padding: 25px, 50px, 75px;
+        text-align: center;
+      
+}
