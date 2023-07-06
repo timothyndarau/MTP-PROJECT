@@ -41,3 +41,4 @@ sound.play();
 //badilisha sound.setAttribute(“src”, `https:${data[0].phonetics[0].audio}`);
 //ikue : sound.setAttribute(“src”, data[0].phonetics[0].audio);
 // imekata kuwork debbug it later
+// its done =)
