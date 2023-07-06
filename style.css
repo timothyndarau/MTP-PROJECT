@@ -25,3 +25,11 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.search-box input {
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #ae9cff;
+    font-size: 16px;
+}
