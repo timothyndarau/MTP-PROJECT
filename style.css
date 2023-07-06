@@ -42,3 +42,9 @@ body {
     color: #ffffff;
     border-radius: 5px;
 }
+.result:hover {
+    background-color: #cfcf2b;
+    }
+    .result {
+        position: relative;
+    }
