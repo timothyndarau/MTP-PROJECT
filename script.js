@@ -12,7 +12,7 @@ btn.addEventListener("click", () => {
             result.innerHTML = `
             <div class="word">
                     <h3>${inpWord}</h3>
-                    <button onclick="playSound()">
+                    <button onclick="playSound('${data [0].phonetics[0].audio}')">
                         <i class="fas fa-volume-up"></i>
                     </button>
                 </div>
@@ -26,7 +26,7 @@ btn.addEventListener("click", () => {
                 <p class="word-example">
                 ${data[0].meanings[0].definitions[0].example || ""}
             </p>`;
-        sound.setAttribute("src", `https:${data[0].phonetics[0].audio}`);
+            // sound.setAttribute("src", `https:${data[0].phonetics[0].audio}`);
     })
     .catch(() => {
         result.innerHTML = `<h3 class="error">Couldn't Find The Word</h3>`;
@@ -34,7 +34,7 @@ btn.addEventListener("click", () => {
 });
 
 function playSound(audiourl) {
-    sound.src = audioUrl;
+sound.src = audiourl;
 sound.play();
 }
 

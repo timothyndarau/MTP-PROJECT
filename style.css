@@ -30,13 +30,13 @@ body {
     width: 70%;
     border: none;
     outline: none;
-    border-bottom: 3px solid #ae9cff;
+    border-bottom: 3px solid  #c7c780;
     font-size: 16px;
 }
 .search-box button {
     padding: 15px 0;
     width: 25%;
-    background-color: #ae9cff;
+    background-color:  #c7c780;
     border: none;
     outline: none;
     color: #ffffff;
@@ -59,7 +59,7 @@ body {
     }
     .result button {
         background-color: transparent;
-        color: #ae9cff;
+        color:  #f9f9f9;
         border: none;
         outline: none;
         font-size: 18px;
