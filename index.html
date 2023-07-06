@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MTP-GARAGE</title>
-    <link rel="stylesheet"  href="style.css">
-</head>
-<body>
-    <h1>Motor Tech Perfomance Garage</h1>
-    <form action="">
-<input type="text" id="search-input" placeholder="Car parts, Project cars, Pending projects, want a project build">
-<button id="search-button">Search</button>
-    </form>
-    <div class="search-results">
-        <div class="search-result">
-        <img src="https://images.unsplash.com/photo-1620988051748-81e0b01f37fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjQyfHxleGhhdXN0JTIwcGlwZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60" 
-        alt="Exhaust pipes">
-        <a href="https://unsplash.com/s/photos/exhaust-pipe" 
-        target="_blank">Exhaust pipes </a>
-    </div>
-     <div class="search-result">
-    <img src="https://images.unsplash.com/photo-1620988051748-81e0b01f37fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjQyfHxleGhhdXN0JTIwcGlwZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60" 
-    alt="Exhaust pipes">
-    <a href="https://unsplash.com/s/photos/exhaust-pipe" 
-    target="_blank">Exhaust pipes </a>
-    </div>
-    <div class="search-result">
-        <img src="https://images.unsplash.com/photo-1620988051748-81e0b01f37fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjQyfHxleGhhdXN0JTIwcGlwZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60" 
-        alt="Exhaust pipes">
-        <a href="https://unsplash.com/s/photos/exhaust-pipe" 
-        target="_blank">Exhaust pipes </a>
-    </div>
-
-    <script src="script.js" ></script>
-</body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="style.css" />
+        <title>Dictionary</title>
+    </head>
+    <body>
+        <audio id="sound"></audio>
+        <div class="container">
+            <div class="search-box">
+                <input
+                    type="text"
+                    placeholder="Type the word here.."
+                    id="inp-word"
+                />
+                <button id="search-btn">Search</button>
+            </div>
+            <div class="result" id="result"></div>
+        </div>
+        <!-- Script -->
+        <script src="script.js"></script>
+    </body>
 </html>
